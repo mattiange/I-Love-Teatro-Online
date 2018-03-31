@@ -1,0 +1,410 @@
+.o-hidden{overflow: hidden;}
+.f-left{float: left;}
+.f-right{float: right;}
+.c-both{clear: both;}
+.btn-success{
+    background-color: #00b7ea;
+    border-color: #3b679e;
+}
+.m-0-a{margin: 0 auto;}
+h1,h2,h3,h4,h5,h6{margin: 5px 5px 10px 0px;}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+    background-color: transparent;
+}
+.col-xs-1, #log .col-sm-1, #log .col-md-1, #log .col-lg-1, #log .col-xs-2, #log .col-sm-2, #log .col-md-2, #log .col-lg-2, #log .col-xs-3, #log .col-sm-3, #log .col-md-3, #log .col-lg-3, #log .col-xs-4, #log .col-sm-4, #log .col-md-4, #log .col-lg-4, #log .col-xs-5, #log .col-sm-5, #log .col-md-5, #log .col-lg-5, #log .col-xs-6, #log .col-sm-6, #log .col-md-6, #log .col-lg-6, #log .col-xs-7, #log .col-sm-7, #log .col-md-7, #log .col-lg-7, #log .col-xs-8, #log .col-sm-8, #log .col-md-8, #log .col-lg-8, #log .col-xs-9, #log .col-sm-9, #log .col-md-9, #log .col-lg-9, #log .col-xs-10, #log .col-sm-10, #log .col-md-10, #log .col-lg-10, #log .col-xs-11, #log .col-sm-11, #log .col-md-11, #log .col-lg-11, #log .col-xs-12, #log .col-sm-12, #log .col-md-12, #log .col-lg-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/*VIDEO INDEX*/
+#video-index{
+}
+#video-index a{
+    color: #000;
+}
+#video-index .col{
+    height: 400px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+#video-index .col video{
+    height: 290px;
+    margin: 0 auto;
+    background-color: #000;
+}
+#video-index .col,
+#video-index .col video{
+    width: 350px;
+}
+#video-index .col .cover,
+#video-index .col .title{
+    overflow: hidden;
+}
+#video-index .col .title a{
+    color: #005cbf;
+}
+#video-index .col .meta a{
+    color: #f36b21;
+}
+/*---------------*/
+
+/** 
+* PROFILO
+*/
+#profilo{
+    border: 0px solid;
+    width: 800px;
+    margin: 0 auto;
+}
+#profilo form > div{clear: both;margin-bottom: 3px;overflow: hidden;}
+#profilo form > div > label,
+#profilo form > div > input{
+    float: left;
+}
+#profilo form > div > label{
+    width: 100px;
+    text-align: right;
+    padding-right: 3px;
+}
+#profilo form > div > input{
+    width: 690px;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border: 1px solid #c8e5bc
+}
+#profilo button{
+    width: 100%;
+    text-transform: uppercase;
+}
+/*------------------------------------------------------*/
+
+
+
+
+
+#mainmenu{
+    background-color: #1B1C1E;
+    height: 70px;
+}
+#mainmenu,
+#mainmenu a{
+    color: white;
+}
+#mainmenu .title{
+    font-size: 1.5em;
+    
+    text-shadow: 1px 2px 3px #000;
+}
+#mainmenu .subtitle{
+    text-align: right;
+    
+    text-shadow: 1px 2px 3px #000;
+}
+#mainmenu .logout{
+    color: #fff;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#mainmenu .dropdown:hover .dropdown-menu{
+    display: block;
+}
+#mainmenu .dropdown-menu{
+    background: #1B1C1E;
+    margin-top: 0px;
+}
+#mainmenu .dropdown-menu button{
+    width: 100%;
+    text-align: left;
+    padding: 3px 20px;
+    text-decoration: none;
+}
+#mainmenu .dropdown-menu li:hover{
+    background-color: #1a0000;
+}
+#mainmenu .dropdown-menu a:hover{
+    background-color: transparent;
+}
+
+
+/*PAGINA COMPAGNIA*/
+#compagnia{
+}
+#compagnia .wrapper{
+    overflow: hidden;
+}
+#compagnia .wrapper>div{
+    clear: both;
+    overflow: hidden;
+    margin: 20px 2px 0 2px;
+}
+#compagnia .wrapper>div>div{
+    width: 200px;
+}
+#compagnia .wrapper>div>div:first-child{
+    text-align: right;
+    padding-right: 15px;
+}
+
+/*ADMIN*/
+#admin-menu .container{
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    position: fixed;
+    height: 100%;
+    background-color: #101010;
+    margin-top: -2px;
+    margin-left: -5px;
+    margin-bottom: 0;
+    padding: 0;
+}
+#admin-menu .container,
+#admin-menu .navbar-nav{
+    width: 200px;
+}
+#admin-menu-collapse{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#admin-menu .navbar-nav{
+    margin: 0;
+}
+#admin-menu .navbar-nav > li > a,
+#admin-menu .navbar-nav > li .btn-link{
+    color: #fff;
+}
+#admin-menu .navbar-nav > .active > a{
+    background-color: #00b7ea;
+    color: #000;
+    font-weight: bolder;
+}
+#admin-menu .navbar-nav li{
+    display: block;
+    float: none !important;
+    width: 100%;
+}
+.admin-content{
+    width: 78%;
+    margin-left: 20%;
+}
+
+
+
+.like-box{
+    min-width: 16px;
+    height: 16px;
+    padding-right: 20px;
+    font-weight: bolder;
+    color: #f36b21;
+    background-image: url(../images/ico/16x16/png/like16x16.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: pointer;
+}
+.like-box.unlike{
+    background-image: url(../images/ico/16x16/png/likeOrange16x16.png);
+}
+
+
+
+/*
+.video-container{
+    border: 0px solid;
+    margin-top: 30px;
+    width: 300px;
+    height: 230px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.video-container .cover{
+    background: rgba(0,0,0, 1);
+    width: 100%;
+    height: 150px;
+}
+.video-container .title h1,
+.video-container .title h2,
+.video-container .title h3,
+.video-container .title h4,
+.video-container .title h5,
+.video-container .title h6{
+    font-size: 1.3em;
+    font-weight: 900;
+}
+.video-container .meta{
+    color: grey;
+}*/
+#myvideo.video-container{
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+}
+#myvideo .cover{
+    height: 400px;
+}
+
+
+/*.site-login{
+    margin: 0 auto;
+    width: 300px;
+    border: 1px solid;
+    padding: 10px;
+    
+    border-radius: 50px;
+}
+.site-login .form-horizontal .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
+.site-login .control-label{
+    text-align: left;
+}
+.site-login label,
+.site-login input{
+    width: 100%;
+}
+.site-login .btn,
+.site-login .btn-primary{
+    width: 100%;
+}*/
+
+
+/**
+* REGISTRAZIONE UTENTE
+*/
+.site-registrati-utente{
+    border: 0px solid;
+    width: 754px;
+    margin: 0 auto;
+}
+.site-registrati-utente h1{
+    border-bottom: 2px inset gray;
+}
+.site-registrati-utente h3{
+    margin-top: 20px;
+    color: #F36A65;
+    text-align: center;
+    padding: 4px;
+    box-shadow: 0px 0px 10px gray;
+}
+.site-registrati-utente .form-horizontal .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
+.site-registrati-utente .form-group label, .site-registrati-utente .form-group div:nth-child(2){
+    float: left;
+}
+.site-registrati-utente .form-group label{
+    width: 154px;
+    word-wrap: break-word;
+    text-align: right;
+    padding: 0;
+    line-height: 36px;
+    padding-right: 3px;
+}
+.site-registrati-utente .form-group div:nth-child(2) {
+    width: 600px;
+}
+.site-registrati-utente .form-group.has-error div:nth-child(3){
+    float: right;
+    width: 600px;
+    background-color: #a94442;
+    padding-left: 5px;
+    margin-top: 3px;
+}
+.site-registrati-utente .form-group.has-error div:nth-child(3) .help-block-error{
+    color: #fff;
+}
+.site-registrati-utente .form-group div:nth-child(2) input{
+    border-color: #c8e5bc;
+    height: 36px;
+}
+.site-registrati-utente input{
+    border: 1px solid;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+.site-registrati-utente .btn.btn-primary{
+    border: 1px solid #bd2130;
+    width: 100%;
+    font-size: 132%;
+    background-color: #F36A65;
+    font-weight: 600;
+    color: #000;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+/*-------------------------------------------------------------------------*/
+
+
+/**
+LOGIN
+**/
+.site-login-front{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 10px;
+    margin-top: 10px;
+    -moz-box-shadow: 0px 0px 10px;
+    -webkit-box-shadow: 0px 0px 10px;
+    box-shadow: 0px 0px 10px;
+}
+.site-login-front .logo{
+    width: 100%;
+}
+.site-login-front > form label,
+.site-login-front > form div{
+    float: left;
+}
+.site-login-front > form > div,
+.site-login-front > div{
+    clear: both;
+    width: 100%;
+}
+.site-login-front > form label{
+    width: 85px;
+}
+.site-login-front > form div > div{
+    width: 293px;
+}
+.site-login-front > form .form-group{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.site-login-front > form div:last-child,
+.site-login-front > form div:last-child div,
+.site-login-front > form div:last-child button{
+    width: 100%;
+}
+/*--------------------------------------------------------------------------*/
+
+
+/**
+* SOCIAL
+*/
+.fb-share-button{
+    display: none;
+}
+/*--------------------------------------------------------------------------*/
+
+
+
+
+
+.body{
+    margin-top: 72px;
+    padding-bottom: 20px;
+}
+
+.footer{
+    background: black;
+    color: #fff;
+}

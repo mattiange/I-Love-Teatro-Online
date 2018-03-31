@@ -1,0 +1,170 @@
+.video-title{
+    width: 640px;
+    margin: 0 auto;
+}
+#video{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+#video:focus{
+    border: 0px solid red;
+}
+#video video{
+    z-index: -1;
+    position: relative;
+    background-color: #000;
+}
+#video, #video .video-cover{
+    width: 640px;
+}
+#video .video-cover{
+    height: 360px;
+}
+#video .video-cover .video,
+#video .video-cover .video video{
+    width: 100%;
+    height: 100%;
+}
+#video .video-cover .controls{
+    border: 0px solid;
+    /*width: 80%;*/
+    height: 42px;
+    margin: 0 auto;
+    margin-top: -52px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 3px;
+    /*background-color: rgba(247,247,247, .5);*/
+    position: relative;
+    z-index: 1;
+    padding: 3px 10px;
+}
+#video .video-cover .controls .timebar{
+    margin-bottom: 10px;
+}
+#video .video-cover .controls .timebar .time,
+#video .video-cover .controls .timebar .buffer{
+    height: 5px;
+    width: 100%;
+    background: transparent;
+    margin-bottom: 3px;
+    position: relative;
+}
+#video .video-cover .controls .timebar .time{
+    margin-top: -8px;
+}
+/* Progress-bar */
+#video .video-cover .controls .timebar .ui-widget-header{
+}
+#video .video-cover .controls .timebar .ui-widget-content{
+    border: 0;
+    background-color: rgba(255,255,255,.2);
+}
+#video .video-cover .controls .timebar .buffer .ui-widget-header{
+    background-color: rgba(255, 255, 255, .5);
+}
+#video .video-cover .controls .timebar .time .ui-progressbar-value{
+    background-color: #f00;
+}
+/* Slider volume */
+#video .controls .volume{
+    width: 85px;
+    overflow: hidden;
+    background-position: left;
+    float: left;
+}
+#video .controls .volume .bar{
+    float: left;
+    margin-top: 5px;
+    margin-left: 2px;
+    width: 50px;
+    height: 5px;
+    margin-top: 10px;
+}
+#video .controls .volume .bar.ui-slider{
+    background-color: rgba(255,255,255, .5);
+    height: 5px;
+    border: 0;
+}
+#video .controls .volume .bar.ui-slider .ui-slider-handle{
+    border: 0;
+    border-radius: 6px;
+    width: 8px;
+    height: 8px;
+    margin-left: -2px;
+    background-color: rgba(255,255,255, 1);
+    margin-top: 3px;
+}
+#video .video-cover .controls .duration{
+    float: right;
+    height: 25px;
+    margin-right: 15px;
+    line-height: 25px;
+}
+#video .video-cover .controls .duration .start, 
+#video .video-cover .controls .duration span,
+#video .video-cover .controls .duration .end{
+    float: left;
+}
+#video .video-cover .controls .duration .end{
+    font-weight: bolder;
+}
+#video .video-cover .controls .play,
+#video .video-cover .controls .pause,
+#video .video-cover .controls .volume .box,
+#video .video-cover .controls .fullscreen,
+#video .video-cover .controls .minimizescreen{
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+#video .video-cover .controls .play{
+    background-image: url(../images/ico/24x24/png/play24x24.png);
+}
+#video .video-cover .controls .pause{
+    background-image: url(../images/ico/24x24/png/pause24x24.png);
+}
+#video .video-cover .controls .volume.muted .box{
+    background-image: url(../images/ico/24x24/png/mute24x24.png);
+}
+#video .video-cover .controls .volume.unmuted .box{
+    background-image: url(../images/ico/24x24/png/volume24x24.png);
+}
+#video .video-cover .controls .fullscreen{
+    background-image: url(../images/ico/24x24/png/fullscreen24x24.png);
+    
+    float: right;
+}
+#video .video-cover .controls .minimizescreen{
+    background-image: url(../images/ico/24x24/png/ico/24x24/png/minimize24x24.png);
+    
+    float: right;
+}
+#video .video-social{
+    margin-top: 21px;
+}
+#video .video-description{
+    color: grey;
+    padding: 10px 33px;
+    font-style: italic;
+}
+#video .meta{
+    clear: both;
+}
+#video.fullscreen{
+    width: 100%;
+    height: 100%;
+}
+#video.fullscreen video{
+    width: 100%;
+    max-height: 100%;
+    z-index: 0;
+}
+#video.fullscreen .video-social,
+#video.fullscreen .video-description{
+    display: none;
+}

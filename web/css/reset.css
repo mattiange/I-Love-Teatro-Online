@@ -1,0 +1,7 @@
+*, html{margin: 0;padding: 0;}
+h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;}
+.list.ls-none{list-style: none;list-style-type: none;padding: 0;}
+[tabindex],[tabindex]:active, [tabindex]:focus, :focus, :active, :checked, :enabled{
+    border: 0;
+    outline: 0;
+}

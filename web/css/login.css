@@ -1,0 +1,76 @@
+/***********************************************
+LOGIN
+
+@author     Mattia Leonardo Angelillo
+@email      mattia.angelillo@gmail.com
+@package    I Love Teatro Online
+@copyright  Teatralmente Gioia (C)
+***********************************************/
+/*#log{
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+#log .form-horizontal .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
+#log .site-login,
+#log .site-registrati-concorrente,
+#log .site-registrati-utente{
+    padding: 5px;
+    width: 33.33%;
+    height: 100%;
+}
+#log .site-login{
+    background-color: #9e0000;
+}
+#log .site-registrati-utente{
+    background-color: #0c8400;
+}
+#log .site-registrati-concorrente{
+    background-color: #f36b21;
+}
+#log .site-login,
+#log .site-registrati-utente{
+    border-right: 1px solid;
+}
+#log h1, #log h2, #log h3, 
+#log h4, #log h5, #log h6,
+#log .control-label,
+#log label{
+    color: #fff;
+}
+#log .col-xs-1, #log .col-sm-1, #log .col-md-1, #log .col-lg-1, #log .col-xs-2, #log .col-sm-2, #log .col-md-2, #log .col-lg-2, #log .col-xs-3, #log .col-sm-3, #log .col-md-3, #log .col-lg-3, #log .col-xs-4, #log .col-sm-4, #log .col-md-4, #log .col-lg-4, #log .col-xs-5, #log .col-sm-5, #log .col-md-5, #log .col-lg-5, #log .col-xs-6, #log .col-sm-6, #log .col-md-6, #log .col-lg-6, #log .col-xs-7, #log .col-sm-7, #log .col-md-7, #log .col-lg-7, #log .col-xs-8, #log .col-sm-8, #log .col-md-8, #log .col-lg-8, #log .col-xs-9, #log .col-sm-9, #log .col-md-9, #log .col-lg-9, #log .col-xs-10, #log .col-sm-10, #log .col-md-10, #log .col-lg-10, #log .col-xs-11, #log .col-sm-11, #log .col-md-11, #log .col-lg-11, #log .col-xs-12, #log .col-sm-12, #log .col-md-12, #log .col-lg-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+#log .has-error .help-block{
+    font-weight: 900;
+    background: #fff;
+    padding: 3px;
+}
+/*--------------------------------------------------------------------------*/
+/*.site-login-front{
+    border: 0px solid;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.site-login-front .form-horizontal .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
+.site-registrati-utente{
+    border: 0px solid;
+    width: 100%;
+}
+.site-registrati-utente .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
+.site-registrati-utente .form-group input{
+    border-radius: 0;
+}
+.site-registrati-utente .control-label{text-align: left;padding-left: 0;padding-right: 0;}*/
